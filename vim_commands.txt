@@ -1,0 +1,62 @@
+i -- Insert
+o -- Insert with new line
+a -- Insert/Append
+
+I -- Insert at the first character of the line
+O -- Insert above the cursor
+A -- Insert at the end of the line
+
+:q -- quit
+:wq -- write and quit
+:q! -- ignore the changes
+
+:set number -- activates line number
+:colorscheme Tab -- different color schemes
+
+vi ~/.vimrc -- configuration file for vim
+
+u in Normal Mode -- undo the changes
+Ctrl+R in Normal Mode --redo the changes
+v -- Visual Mode
+d -- delete 
+dd -- delete the whole line
+D -- deletes the rest of the line
+y (yankee) -- copy
+yy -- copy the whole line
+p -- paste
+c -- change the line
+cc -- change the whole line
+C -- changes the rest of the line
+r -- replace
+
+w -- jump word to word forward
+b -- jump word to word backward
+dw -- deletes a word
+dt" -- delete until the quotation
+diw -- delete in a word
+ciw -- change in a word
+
+0 (zero) -- beginning of the line
+$ -- end of the line
+% -- jump to the opening and closing brackets
+
+/pattern -- search forward 
+?pattern -- search backward
+n -- repeat the search forward
+N -- repeat the search backward
+* -- jump to the next instance of the current word
+# -- jump to the previous instance of the current word
+
+ma -- mark the word with character 'a'
+'a -- get to the word with character 'a'
+zz -- center the line
+
+:%s/forward/center/g -- replaces the 'forward' in the entire file with 'center'
+:s/forward/center/g -- replaces the 'forward' in the selection with 'center'
+. -- repeat the last command
+
+:reg -- registers
+"7p -- pastes the 7th register
+
+:5,17s/^/#/ -- comments the line from 5 to 17
+:5,17s/^#/ -- uncomments the line from 5 to 17
